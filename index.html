@@ -3,12 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Portfolio Website</title>
-    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <title>Portfolio Website</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
     <!-- Custom Css -->
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
-    <script src="./JS/script.js"></script>
+    <header>
+      <a href="#" class="logo"> Portfolio</a>
+
+      <div class="nav">
+        <a href="#home"> Home </a>
+        <a href="#service"> Serviços </a>
+        <a href="#portfolio"> Portfolio </a>
+        <a href="#contact"> Contato </a>
+        <a href="#about"> Sobre </a>
+      </div>
+    </header>
+
+    <!-- Home section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3> Olá, eu sou</h3>
+        <h1> João Pedro</h1>
+        <h3> Full-Stack <span>Developer</span></h3>
+
+        <p> Cursando Análise e Desenvolvimento de Sistemas (ADS) na Fatec de Presidente Prudente, no 6° termo.</p>
+
+        <div class="social-media">
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+          <a href="#"><i class='bx bxl-linkedin'></i></a>
+          <a href="#"><i class='bx bxl-github'></i></a>
+        </div>
+
+        <div>
+          <a href="#" class="btn"> Baixar CV </a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="./IMG/Foto_Perfil.png" alt="Foto de perfil">
+      </div>
+    </section>
+    <!-- /Home section -->
   </body>
+  <script src="./JS/script.js"></script>
 </html>
