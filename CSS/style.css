@@ -153,7 +153,7 @@ span {
   padding: 0.6rem;
   background-color: var(--color-00);
   border-radius: 1rem;
-  border: 2px solid;
+  border: solid 0.15rem;
   border-color: transparent;
 }
 
@@ -181,7 +181,12 @@ span {
 
 .technologies-container .technologies-box:hover {
   border-color: var(--main-color);
-  transform: scale(1.01);
+  transform: scale(1.05);
+  box-shadow: 0 0 0.6rem black;
+}
+
+.technologies-images:hover {
+  border-color: var(--main-color);
 }
 
 .technologies-box h3 {
@@ -193,9 +198,6 @@ span {
     height: 281px; 
 }
 
-.portfolio-box {
-    background-color: red;
-}
 
 
 
